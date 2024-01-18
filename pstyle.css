@@ -26,7 +26,7 @@ html {
 #pianohead{
   font-size: 70px;
   margin-top: 0px;
-  padding-top: 0px;
+  padding-top: 15px;
   font-style: italic;
   font-weight: 500;
   color: red;
@@ -204,3 +204,17 @@ html {
       .keys .hints {
         opacity: 1;
       }
+
+button{
+  padding:10px 15px;
+  margin-top:10px;
+  border-radius: 20px;
+}
+
+button:hover{
+  translate: 0px -5px;
+}
+
+#playbackspeeed{
+  padding-left:90px
+}

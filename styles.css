@@ -18,10 +18,11 @@ body {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 5rem;
   color: #1dda46;
   font-family: 'arial', sans-serif;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  margin-top: 10px;
 }
 
 footer {
@@ -122,8 +123,8 @@ footer {
   color: #04da28;
   text-shadow: 3px 0 #DBEDF3;
   display: inline-block;
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   text-align: center;
   margin: 10px;
   background-color: white;
@@ -132,4 +133,19 @@ footer {
 
 title{
   font-family: arial;
+}
+
+button{
+  padding:10px 15px;
+  margin-top:10px;
+  border-radius: 20px;
+}
+
+button:hover{
+  translate: 0px -5px;
+  box-shadow: 10px 5px 5px rgb(22, 217, 87);
+}
+
+#playbackspeeed{
+  padding-left:90px
 }
