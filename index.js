@@ -15,14 +15,13 @@ for (var i = 0; i < document.querySelectorAll(".drum").length; i++) {
   document.querySelectorAll(".drum")[i].addEventListener("click", function () {
     var buttonInnerHTML = this.innerHTML;
     makeSound(buttonInnerHTML);
-    buttonanimation(buttonInnerHTML);
+    
   });
 }
 
 // Detect keyboard presses
 document.addEventListener("keypress", function (event) {
   makeSound(event.key);
-  buttonanimation(event.key);
 });
 
 document.getElementById("recordBtn").addEventListener("click", function () {
@@ -137,9 +136,4 @@ function makeSound(key) {
   }
 
 
-function buttonanimation(currentkey) {
-  document.querySelector("." + currentkey).classList.add("pressed");
-  setTimeout(function () {
-    document.querySelector("." + currentkey).classList.remove("pressed");
-  }, 100);
-}
+
