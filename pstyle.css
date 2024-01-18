@@ -1,0 +1,206 @@
+html {
+    background: #fff; 
+    font-family: 'Noto Serif', serif;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+  }
+  
+  html{
+      background-color: black;
+  }
+  
+  header ::before
+  {
+      
+    content: "";
+    background: url('https://i.pinimg.com/originals/5c/58/ab/5c58ab5de4ca5c503f0068d04e9ef235.jpg') center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 70vh;
+    width: 100%;
+    z-index: -2;
+    opacity: 0.99;
+}
+
+#pianohead{
+  font-size: 70px;
+  margin-top: 0px;
+  padding-top: 0px;
+  font-style: italic;
+  font-weight: 500;
+  color: red;
+  text-shadow: 3px 3px rgb(230, 114, 114);
+  letter-spacing: 1px;
+}
+
+    header{
+      position: relative;
+      margin: 60px 0;
+      font-size: 40px;
+      font-style: italic;
+      font-weight: 600;
+      margin-bottom: 0px;
+      margin-top: 0px;
+    }
+      header:after {
+        content: '';
+        width: 460px;
+        height: 15px;
+        
+        display: inline-block;
+        text-align: center;
+        background-size: 70%;
+      }
+  
+      h1 {
+        color: #fff;
+        font-size: 50px;
+        font-weight: 400;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        margin: 0;
+      }
+  
+      h2 {
+        color: #fff;
+        font-size: 24px;
+        font-style: italic;
+        font-weight: 400;
+        margin: 0 0 30px;
+      }
+  
+      .nowplaying {
+        font-size: 120px;
+        line-height: 1;
+        color: #eee;
+        text-shadow: 0 0 5rem #028ae9;
+        transition: all .07s ease;
+        min-height: 120px;
+      }
+  
+      .keys {
+        display: block;
+        width: 100%;
+        height: 350px;
+        max-width: 880px;
+        position: relative;
+        margin: 40px auto 0;
+        cursor: none;
+      }
+  
+      .key {
+        position: relative;
+        border: 4px solid rgb(0, 0, 0);
+        border-radius: .5rem;
+        transition: all .07s ease;
+        display: block;
+        box-sizing: border-box;
+        z-index: 2;
+      }
+  
+      .key:not(.sharp) {
+        float: left;
+        width: 10%;
+        height: 100%;
+        background: rgba(255, 255, 255, .8);
+      }
+  
+      .key.sharp {
+        position: absolute;
+        width: 6%;
+        height: 60%;
+        background: #000;
+        color: #eee;
+        top: 0;
+        z-index: 3;
+      }
+  
+      .key[data-key="65"] {
+        left: 7%;
+      }
+  
+      .key[data-key="87"] {
+        left: 13%;
+      }
+  
+      .key[data-key="83"] {
+        left: 7%;
+      }
+  
+      .key[data-key="69"] {
+        left: 24%;
+      }
+  
+      .key[data-key="68"] {
+        left: 7%;
+      }
+  
+      .key[data-key="70"] {
+        left: 7%;
+      }
+  
+      .key[data-key="84"] {
+        left: 43%;
+      }
+  
+      .key[data-key="71"] {
+        left: 7%;
+      }
+  
+      .key[data-key="89"] {
+        left: 53%;
+      }
+  
+      .key[data-key="72"] {
+        left: 7%;
+      }
+  
+      .key[data-key="85"] {
+        left: 62%;
+      }
+  
+      .key[data-key="74"] {
+        left: 7%;
+      }
+  
+      .key[data-key="75"] {
+        left: 7%;
+      }
+      
+    .key[data-key="79"] {
+      left: 83%;
+    }
+
+    .key[data-key="76"] {
+      left: 7%;
+    }
+
+    .key[data-key="80"] {
+      left: 94%;
+    }
+
+    .key[data-key="186"] {
+      left: 6%;
+    }
+  
+     
+      .playing {
+        transform: scale(.95);
+        border-color: #028ae9;
+        box-shadow: 0 0 1rem #028ae9;
+      }
+  
+      .hints {
+        display: block;
+        width: 100%;
+        opacity: 0;
+        position: absolute;
+        bottom: 7px;
+        transition: opacity .3s ease-out;
+        font-size: 20px;
+      }
+  
+      .keys .hints {
+        opacity: 1;
+      }

@@ -1,0 +1,135 @@
+.container {
+  background-color: #3498db;
+  background: url('https://wallpaperaccess.com/full/3844027.jpg') center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: -2;
+    opacity: 0.95;
+}
+
+body {
+  text-align: center;
+  background-color: #ecf0f1;
+  margin: auto;
+  font-family: 'arial', sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #1dda46;
+  font-family: 'arial', sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+  color: #95a5a6;
+  font-family: 'arial', sans-serif;
+  margin-bottom: 10px;
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.game-over {
+  background-color: #e74c3c;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #2c3e50;
+  opacity: 0.8;
+}
+
+.red {
+  color: #3ce753;
+}
+
+.drum {
+  outline: none;
+  border: 5px solid #34495e; /* Adjusted border-width */
+  font-size: 3rem;
+  font-family: 'arial', sans-serif;
+  line-height: 2;
+  font-weight: 700;
+  color: #3498db;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: #fff;
+  background-size: cover;
+}
+
+.w {
+  background-image: url("./images/tom1.jpg");
+  
+}
+
+.a {
+  background-image: url("./images/tom1.jpg");
+}
+
+.s {
+  background-image: url("./images/tom3.avif");
+}
+
+.d {
+  background-image: url("./images/tom3.avif");
+}
+
+.j {
+  background-image: url("./images/snare.jpg");
+}
+
+.k {
+  background-image: url("./images/crash.jpg");
+}
+
+.l {
+  background-image: url("./images/kick1.jpg");
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: rgb(0, 255, 34);
+}
+
+.drum {
+  outline: none;
+  font-size: 5rem;
+  font-family: 'arial', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #04da28;
+  text-shadow: 3px 0 #DBEDF3;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+  background-size: cover;
+}
+
+title{
+  font-family: arial;
+}
